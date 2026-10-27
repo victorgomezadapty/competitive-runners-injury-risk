@@ -1,0 +1,19 @@
+file,rows,columns,blank_cells,first_column,participant_columns,participants_with_values,nonmissing_values,zero_values,date_grid_start,date_grid_end,observed_start,observed_end,value_min,value_max
+subjective/wellness/fatigue.csv,731,51,19558,Fatigue Data,50.0,50.0,16992.0,0.0,2020-01-01,2021-12-31,2020-01-09,2021-12-31,1.0,5.0
+subjective/training-load/strain.csv,731,51,0,Date,50.0,50.0,36550.0,15429.0,2020-01-01,2021-12-31,2020-01-01,2021-12-31,0.0,34475.0
+subjective/game-performance/game-performance.csv,248,5,0,player_name,,,,,,,,,,
+subjective/training-load/daily_load.csv,731,51,0,Date,50.0,50.0,36550.0,22359.0,2020-01-01,2021-12-31,2020-01-01,2021-12-31,0.0,3420.0
+subjective/training-load/weekly_load.csv,731,51,0,Date,50.0,50.0,36550.0,15429.0,2020-01-01,2021-12-31,2020-01-01,2021-12-31,0.0,6760.0
+subjective/training-load/monotony.csv,731,51,0,Date,50.0,50.0,36550.0,15429.0,2020-01-01,2021-12-31,2020-01-01,2021-12-31,0.0,8.75
+subjective/illness/illness.csv,15,3,0,player_name,,,,,,,,,,
+subjective/training-load/ctl28.csv,731,51,0,Date,50.0,50.0,36550.0,12904.0,2020-01-01,2021-12-31,2020-01-01,2021-12-31,0.0,713.57
+subjective/wellness/sleep_quality.csv,731,51,19556,SleepQuality Data,50.0,50.0,16994.0,0.0,2020-01-01,2021-12-31,2020-01-09,2021-12-31,1.0,5.0
+subjective/wellness/stress.csv,731,51,19553,Date,50.0,50.0,16997.0,0.0,2020-01-01,2021-12-31,2020-01-09,2021-12-31,1.0,5.0
+subjective/training-load/atl.csv,731,51,0,Date,50.0,50.0,36550.0,15429.0,2020-01-01,2021-12-31,2020-01-01,2021-12-31,0.0,965.71
+subjective/wellness/soreness.csv,731,51,19551,Soreness Data,50.0,50.0,16999.0,0.0,2020-01-01,2021-12-31,2020-01-09,2021-12-31,1.0,5.0
+subjective/wellness/sleep_duration.csv,731,51,19569,SleepDurH Data,50.0,50.0,16981.0,0.0,2020-01-01,2021-12-31,2020-01-09,2021-12-31,1.0,12.0
+subjective/wellness/readiness.csv,731,51,19553,Readiness Data,50.0,50.0,16997.0,0.0,2020-01-01,2021-12-31,2020-01-09,2021-12-31,1.0,10.0
+subjective/wellness/mood.csv,731,51,19551,Mood Data,50.0,50.0,16999.0,0.0,2020-01-01,2021-12-31,2020-01-09,2021-12-31,1.0,5.0
+subjective/training-load/ctl42.csv,731,51,0,Date,50.0,50.0,36550.0,12067.0,2020-01-01,2021-12-31,2020-01-01,2021-12-31,0.0,664.05
+subjective/injury/injury.csv,162,3,0,player_name,,,,,,,,,,
+subjective/training-load/acwr.csv,731,51,0,Date,50.0,50.0,36550.0,15429.0,2020-01-01,2021-12-31,2020-01-01,2021-12-31,0.0,4.0046728971962615

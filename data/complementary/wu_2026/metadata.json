@@ -1,0 +1,294 @@
+{
+  "files": [
+    {
+      "id": 62010646,
+      "name": "41746_2026_2413_MOESM1_ESM.pdf",
+      "size": 1659745,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/62010646",
+      "supplied_md5": "1648ffe6a6ed34c7b1c28a6157584f06",
+      "computed_md5": "1648ffe6a6ed34c7b1c28a6157584f06",
+      "mimetype": "application/pdf"
+    },
+    {
+      "id": 62010649,
+      "name": "41746_2026_2413_MOESM2_ESM.xlsx",
+      "size": 1188998,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/62010649",
+      "supplied_md5": "e959440135b27f75f47d28c76725155a",
+      "computed_md5": "e959440135b27f75f47d28c76725155a",
+      "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    {
+      "id": 62010652,
+      "name": "41746_2026_2413_MOESM3_ESM.xlsx",
+      "size": 8187498,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/62010652",
+      "supplied_md5": "4a842bdfdf52255e44a9f9cf82cc983e",
+      "computed_md5": "4a842bdfdf52255e44a9f9cf82cc983e",
+      "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 11514694,
+      "full_name": "Henry Wu",
+      "first_name": "Henry",
+      "last_name": "Wu",
+      "is_active": false,
+      "url_name": "Henry_Wu",
+      "orcid_id": ""
+    },
+    {
+      "id": 1254291,
+      "full_name": "Katherine Brooke-Wavell",
+      "first_name": "Katherine",
+      "last_name": "Brooke-Wavell",
+      "is_active": true,
+      "url_name": "Katherine_Brooke_Wavell",
+      "orcid_id": ""
+    },
+    {
+      "id": 23218130,
+      "full_name": "Michael R Barnes",
+      "first_name": "Michael",
+      "last_name": "R Barnes",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 20151435,
+      "full_name": "Zainab Awan",
+      "first_name": "Zainab",
+      "last_name": "Awan",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 1249860,
+      "full_name": "Sarabjit Mastana",
+      "first_name": "Sarabjit",
+      "last_name": "Mastana",
+      "is_active": true,
+      "url_name": "Sarabjit_Mastana",
+      "orcid_id": ""
+    },
+    {
+      "id": 1247760,
+      "full_name": "Sam Allen",
+      "first_name": "Sam",
+      "last_name": "Allen",
+      "is_active": true,
+      "url_name": "Sam_Allen",
+      "orcid_id": ""
+    },
+    {
+      "id": 6502469,
+      "full_name": "Richard Blagrove",
+      "first_name": "Richard",
+      "last_name": "Blagrove",
+      "is_active": true,
+      "url_name": "Richard_Blagrove",
+      "orcid_id": ""
+    }
+  ],
+  "custom_fields": [
+    {
+      "name": "School",
+      "value": [
+        "Sport, Exercise and Health Sciences"
+      ],
+      "settings": {
+        "options": [
+          "Aeronautical, Automotive, Chemical and Materials Engineering",
+          "Architecture, Building and Civil Engineering",
+          "Loughborough Business School",
+          "Design and Creative Arts",
+          "Loughborough University, London",
+          "Mechanical, Electrical and Manufacturing Engineering",
+          "Science",
+          "Social Sciences and Humanities",
+          "Sport, Exercise and Health Sciences",
+          "University Academic and Administrative Support"
+        ],
+        "placeholder": "School",
+        "is_multiple": true
+      },
+      "field_type": "dropdown",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Department",
+      "value": [],
+      "settings": {
+        "options": [
+          "Aeronautical and Automotive Engineering",
+          "Centre for Academic Practice",
+          "Chemical Engineering",
+          "Chemistry",
+          "Communication and Media",
+          "Computer Science",
+          "Creative Arts",
+          "Design",
+          "English",
+          "English and Drama",
+          "Geography and Environment",
+          "Information Science",
+          "IT Services",
+          "Materials",
+          "Mathematical Sciences",
+          "Mathematics Education",
+          "Physics",
+          "International Relations, Politics and History",
+          "Research Office",
+          "Criminology, Sociology and Social Policy",
+          "University Library",
+          "Loughborough Law"
+        ],
+        "placeholder": "Department",
+        "is_multiple": true
+      },
+      "field_type": "dropdown",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Research Unit",
+      "value": [],
+      "settings": {
+        "options": [
+          "CAA Conference",
+          "Centre for Child and Family Research",
+          "Centre for Engineering and Design Education (CEDE)",
+          "Centre for Innovative and Collaborative Engineering (CICE)",
+          "Centre for Renewable Energy Systems Technology (CREST)",
+          "Centre for Research in Social Policy (CRSP)",
+          "Design Practice Research Case Studies",
+          "D&T Association Conference Series",
+          "Higher Education Academy Engineering Subject Centre",
+          "IDATER Archive",
+          "Interrogations Conference Papers",
+          "Midlands Centre for Criminology and Criminal Justice",
+          "NADE Archive",
+          "Orange Series",
+          "Socio-economic status and child/adolescent health in Johannesburg-Soweto Study",
+          "Water, Engineering and Development Centre (WEDC)",
+          "engCETL",
+          "Centre for Mathematical Cognition",
+          "Centre for Early Mathematics Learning"
+        ],
+        "placeholder": "Research Unit",
+        "is_multiple": true
+      },
+      "field_type": "dropdown",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Ethics review number",
+      "value": "",
+      "settings": {
+        "validations": {
+          "min_length": 1,
+          "max_length": 250
+        },
+        "placeholder": "Ethics review number"
+      },
+      "field_type": "text",
+      "order": null,
+      "is_mandatory": false
+    }
+  ],
+  "figshare_url": "https://repository.lboro.ac.uk/articles/dataset/Supplementary_information_files_for_Multidisciplinary_prediction_of_running-related_injuries_using_machine_learning_/31368781",
+  "download_disabled": false,
+  "description": "<p dir=\"ltr\">Supplementary files for article \"Multidisciplinary prediction of running-related injuries using machine learning\"<br><br>This paper presents a machine learning (ML)-ready running-related injury (RRI) weekly prediction dataset using evidence-based multidisciplinary risk factors. Risk factors in genetic single-nucleotide polymorphisms, history, muscular strength, biomechanics, body composition, nutrition, and training were collected from competitive endurance runners (n=142), who were prospectively monitored for 12 months for RRIs, accumulating 6,181 weekly samples. ML models were fitted using (i) risk factors with high-level supporting evidence, and (ii) a broader range of risk factors to establish a performance baseline. Model performance (AUC=0.784\u00b10.014) showed moderate improvement compared to previous RRI prediction modelling. Comparisons among different ML methods revealed nuanced insights into the interaction between data structure and model suitability. This study introduces a reproducible methodological framework for future ML sports injury prediction research and a valuable dataset for pooling in larger-scale analytics.</p>",
+  "funding": null,
+  "funding_list": [],
+  "version": 1,
+  "status": "public",
+  "size": 11036241,
+  "created_date": "2026-02-19T09:59:36Z",
+  "modified_date": "2026-02-19T09:59:45Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "Artifical intelligence",
+    "Endurance running",
+    "Prognostic modelling",
+    "Sports injury"
+  ],
+  "keywords": [
+    "Artifical intelligence",
+    "Endurance running",
+    "Prognostic modelling",
+    "Sports injury"
+  ],
+  "categories": [
+    {
+      "id": 33827,
+      "title": "Health services and systems",
+      "parent_id": 33752,
+      "path": "/33752/33827",
+      "source_id": "4203",
+      "taxonomy_id": 102
+    }
+  ],
+  "references": [
+    "https://hdl.handle.net/2134/31209898"
+  ],
+  "has_linked_file": false,
+  "citation": "Wu, Henry; Brooke-Wavell, Katherine; R Barnes, Michael; Awan, Zainab; Mastana, Sarabjit; Allen, Sam; et al. (2026). Supplementary information files for \"Multidisciplinary prediction of running-related injuries using machine learning\". Loughborough University. Dataset. https://doi.org/10.17028/rd.lboro.31368781.v1",
+  "related_materials": [
+    {
+      "id": 271271977,
+      "identifier": "2134/31209898",
+      "title": "Multidisciplinary prediction of running-related injuries using machine learning",
+      "relation": "IsSupplementTo",
+      "identifier_type": "Handle",
+      "is_linkout": true,
+      "link": "https://hdl.handle.net/2134/31209898"
+    }
+  ],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": null,
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 31368781,
+  "title": "Supplementary information files for \"Multidisciplinary prediction of running-related injuries using machine learning\"",
+  "doi": "10.17028/rd.lboro.31368781.v1",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/31368781",
+  "published_date": "2026-02-19T09:59:36Z",
+  "thumb": "https://s3-eu-west-1.amazonaws.com/ppreviews-loughborough-81236/62010646/thumb.png",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": 65,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/31368781",
+  "url_public_api": "https://api.figshare.com/v2/articles/31368781",
+  "url_private_html": "https://figshare.com/account/articles/31368781",
+  "url_public_html": "https://repository.lboro.ac.uk/articles/dataset/Supplementary_information_files_for_Multidisciplinary_prediction_of_running-related_injuries_using_machine_learning_/31368781",
+  "timeline": {
+    "posted": "2026-02-19T09:59:36",
+    "publisherAcceptance": "2026-01-26T00:00:00",
+    "publisherPublication": "2026-02-06T00:00:00",
+    "firstOnline": "2026-02-02"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

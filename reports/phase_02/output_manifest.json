@@ -1,0 +1,25 @@
+{
+  "files": {
+    "reports\\phase_02\\tables\\calibration_thresholds.csv": "74c48224046e049b7000417195541f1394c22db0c994f0f86b54541f3356fee5",
+    "reports\\phase_02\\tables\\fold_metrics.csv": "1b898912bfd9ebc53f5c4fee4e48d9fab9a8e28249d25436519df99ae6359c20",
+    "reports\\phase_02\\tables\\held_out_alert_metrics.csv": "9fe09418a913cac4794d9fe5d7bbb32e861258e3f62a1fd83727a7492aa0ca2d",
+    "reports\\phase_02\\tables\\logistic_coefficients.csv": "b0801c9d6b6f6efa0de355a7bb6a81b4bb3acab764a85322e3765fcd144910cd",
+    "reports\\phase_02\\tables\\personal_history_feasibility.csv": "4996e04d16fd0b977b175006eb0882904973e6b458c810d87714ed230783c4a8",
+    "reports\\phase_02\\tables\\pooled_alerts.csv": "2498ce0d4dd112079440eef4739e132d8f0a2faa19af0eeffeef5d275dd651ee",
+    "reports\\phase_02\\tables\\pooled_metrics.csv": "7a4a7019218c59d9b50cbbb9fed77d259a650557875461279f6b423883627302",
+    "reports\\phase_02\\tables\\primary_cluster_bootstrap.csv": "e891d403a75442bb7aa77f0f43d303ac65738fe267077485a213653473d6fd35",
+    "reports\\phase_02\\tables\\primary_summary.csv": "7795db01533853ceec414a31e5143188b84cd8825947f042eb8277908b3e4b7c",
+    "reports\\phase_02\\tables\\reliability_bins.csv": "e8857687134dbaccc82d95ed6daffe620ca2e8ec87d2a3fb3239c9bfc611be88",
+    "reports\\phase_02\\tables\\split_audit.csv": "8263ad2f38dc73f4a3ac19c7862392cfc02c5156e5b347a689ab744d6ec6029a",
+    "reports\\phase_02\\tables\\training_clip_bounds.csv": "d93bcf6b4e9607bb368e0bc145b9b7c87ec3bd0f30831c22b964bab0b76a87d3",
+    "reports\\phase_02\\tables\\training_success_quality.csv": "0f33e6e0c404f30476edf38da69dbcee2cb22181795391bc3075e9eaff5d9613",
+    "reports\\phase_02\\tables\\weekly_window_distributions.csv": "b936f517e9d3f0e458b68a7cb595922e6409c2b5ca1f682aebfded25e247a019",
+    "data\\processed\\phase_02\\daily_features.csv": "5829ee27f1196d18b3525f69094db50a1276eba5bd432129ff5b33701f7f5c0e",
+    "data\\processed\\phase_02\\held_out_predictions.csv": "2feab8b5797ab32246317093561213c136a0828e7be59f6d1f147a66a4b42961",
+    "data\\processed\\phase_02\\row_partitions.csv": "5aab6077658b75de6fd9a11ac622cc7f3c8e86efd4773b27be454b1369cb7fbe",
+    "data\\processed\\phase_02\\weekly_windows.csv": "2bd8f91fa4f483ac24bd229ca8d50fe9693d1d869acfc04d6988025135d3cf22",
+    "reports\\phase_02\\figures\\calibration.png": "4dfa3aaa13fd49a706d0bb6f3da2684e74861f44c76731ccb4fde332b0fe286c",
+    "reports\\phase_02\\figures\\review_volume.png": "542dd04e66ca1929c1192257b548beb15018bddebc109ab2d93e614d47294e5d",
+    "reports\\phase_02\\figures\\validation_comparison.png": "f5ef2c8688f24351f9c8fa2965c4256d7af5e75e545ed91ac571879d5491cf9b"
+  }
+}

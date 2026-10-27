@@ -1,0 +1,146 @@
+representation,original_column,base_name,domain,definition,window_relative_to_event,units,dtype,observed_min,observed_max,blank_cells,sentinel_handling,role
+day,nr. sessions,nr. sessions,Training frequency,Number of completed training sessions that day,E-7,sessions,float64,0.0,2.0,0,,historical exposure
+day,total km,total km,Volume,Distance covered running that day,E-7,km,float64,0.0,55.9,0,,historical exposure
+day,km Z3-4,km Z3-4,Intensity,Running distance in Z3-4: on or slightly above anaerobic threshold (corrected README),E-7,km,float64,0.0,42.2,0,,historical exposure
+day,km Z5-T1-T2,km Z5-T1-T2,Intensity,Distance in Z5 near maximum heart rate or intensive track intervals; T1 longer and T2 shorter repetitions,E-7,km,float64,0.0,48.0,0,,historical exposure
+day,km sprinting,km sprinting,Intensity,Distance covered sprinting; no numerical speed cut-point supplied,E-7,km,float64,0.0,40.0,0,,historical exposure
+day,strength training,strength training,Strength,"Logged strength training; README calls this an indicator, but values reach 2 and paper calls it session count",E-7,logged count; review >1,float64,0.0,2.0,0,,historical exposure
+day,hours alternative,hours alternative,Cross training,Hours of alternative/cross training; type not released,E-7,hours,float64,0.0,10.22,0,,historical exposure
+day,perceived exertion,perceived exertion,Subjective,"Self-estimated tiredness after main session; released 0-1 scale, not established Borg RPE",E-7,released rating 0-1,float64,-0.01,1.0,0,-0.01 = unavailable on rest day; exclude from numeric rating means; retain day,historical exposure
+day,perceived trainingSuccess,perceived trainingSuccess,Subjective,Self-estimated success of main session; released 0-1 scale,E-7,released rating 0-1,float64,-0.01,1.0,0,-0.01 = unavailable on rest day; exclude from numeric rating means; retain day,historical exposure
+day,perceived recovery,perceived recovery,Recovery,Self-estimated restedness before session; released 0-1 scale,E-7,released rating 0-1,float64,-0.01,1.0,0,-0.01 = unavailable on rest day; exclude from numeric rating means; retain day,historical exposure
+day,nr. sessions.1,nr. sessions,Training frequency,Number of completed training sessions that day,E-6,sessions,float64,0.0,2.0,0,,historical exposure
+day,total km.1,total km,Volume,Distance covered running that day,E-6,km,float64,0.0,55.9,0,,historical exposure
+day,km Z3-4.1,km Z3-4,Intensity,Running distance in Z3-4: on or slightly above anaerobic threshold (corrected README),E-6,km,float64,0.0,42.2,0,,historical exposure
+day,km Z5-T1-T2.1,km Z5-T1-T2,Intensity,Distance in Z5 near maximum heart rate or intensive track intervals; T1 longer and T2 shorter repetitions,E-6,km,float64,0.0,48.0,0,,historical exposure
+day,km sprinting.1,km sprinting,Intensity,Distance covered sprinting; no numerical speed cut-point supplied,E-6,km,float64,0.0,40.0,0,,historical exposure
+day,strength training.1,strength training,Strength,"Logged strength training; README calls this an indicator, but values reach 2 and paper calls it session count",E-6,logged count; review >1,float64,0.0,2.0,0,,historical exposure
+day,hours alternative.1,hours alternative,Cross training,Hours of alternative/cross training; type not released,E-6,hours,float64,0.0,10.22,0,,historical exposure
+day,perceived exertion.1,perceived exertion,Subjective,"Self-estimated tiredness after main session; released 0-1 scale, not established Borg RPE",E-6,released rating 0-1,float64,-0.01,1.0,0,-0.01 = unavailable on rest day; exclude from numeric rating means; retain day,historical exposure
+day,perceived trainingSuccess.1,perceived trainingSuccess,Subjective,Self-estimated success of main session; released 0-1 scale,E-6,released rating 0-1,float64,-0.01,1.0,0,-0.01 = unavailable on rest day; exclude from numeric rating means; retain day,historical exposure
+day,perceived recovery.1,perceived recovery,Recovery,Self-estimated restedness before session; released 0-1 scale,E-6,released rating 0-1,float64,-0.01,1.0,0,-0.01 = unavailable on rest day; exclude from numeric rating means; retain day,historical exposure
+day,nr. sessions.2,nr. sessions,Training frequency,Number of completed training sessions that day,E-5,sessions,float64,0.0,2.0,0,,historical exposure
+day,total km.2,total km,Volume,Distance covered running that day,E-5,km,float64,0.0,55.9,0,,historical exposure
+day,km Z3-4.2,km Z3-4,Intensity,Running distance in Z3-4: on or slightly above anaerobic threshold (corrected README),E-5,km,float64,0.0,42.2,0,,historical exposure
+day,km Z5-T1-T2.2,km Z5-T1-T2,Intensity,Distance in Z5 near maximum heart rate or intensive track intervals; T1 longer and T2 shorter repetitions,E-5,km,float64,0.0,48.0,0,,historical exposure
+day,km sprinting.2,km sprinting,Intensity,Distance covered sprinting; no numerical speed cut-point supplied,E-5,km,float64,0.0,40.0,0,,historical exposure
+day,strength training.2,strength training,Strength,"Logged strength training; README calls this an indicator, but values reach 2 and paper calls it session count",E-5,logged count; review >1,float64,0.0,2.0,0,,historical exposure
+day,hours alternative.2,hours alternative,Cross training,Hours of alternative/cross training; type not released,E-5,hours,float64,0.0,10.22,0,,historical exposure
+day,perceived exertion.2,perceived exertion,Subjective,"Self-estimated tiredness after main session; released 0-1 scale, not established Borg RPE",E-5,released rating 0-1,float64,-0.01,1.0,0,-0.01 = unavailable on rest day; exclude from numeric rating means; retain day,historical exposure
+day,perceived trainingSuccess.2,perceived trainingSuccess,Subjective,Self-estimated success of main session; released 0-1 scale,E-5,released rating 0-1,float64,-0.01,1.0,0,-0.01 = unavailable on rest day; exclude from numeric rating means; retain day,historical exposure
+day,perceived recovery.2,perceived recovery,Recovery,Self-estimated restedness before session; released 0-1 scale,E-5,released rating 0-1,float64,-0.01,1.0,0,-0.01 = unavailable on rest day; exclude from numeric rating means; retain day,historical exposure
+day,nr. sessions.3,nr. sessions,Training frequency,Number of completed training sessions that day,E-4,sessions,float64,0.0,2.0,0,,historical exposure
+day,total km.3,total km,Volume,Distance covered running that day,E-4,km,float64,0.0,57.0,0,,historical exposure
+day,km Z3-4.3,km Z3-4,Intensity,Running distance in Z3-4: on or slightly above anaerobic threshold (corrected README),E-4,km,float64,0.0,42.2,0,,historical exposure
+day,km Z5-T1-T2.3,km Z5-T1-T2,Intensity,Distance in Z5 near maximum heart rate or intensive track intervals; T1 longer and T2 shorter repetitions,E-4,km,float64,0.0,48.0,0,,historical exposure
+day,km sprinting.3,km sprinting,Intensity,Distance covered sprinting; no numerical speed cut-point supplied,E-4,km,float64,0.0,40.0,0,,historical exposure
+day,strength training.3,strength training,Strength,"Logged strength training; README calls this an indicator, but values reach 2 and paper calls it session count",E-4,logged count; review >1,float64,0.0,2.0,0,,historical exposure
+day,hours alternative.3,hours alternative,Cross training,Hours of alternative/cross training; type not released,E-4,hours,float64,0.0,10.22,0,,historical exposure
+day,perceived exertion.3,perceived exertion,Subjective,"Self-estimated tiredness after main session; released 0-1 scale, not established Borg RPE",E-4,released rating 0-1,float64,-0.01,1.0,0,-0.01 = unavailable on rest day; exclude from numeric rating means; retain day,historical exposure
+day,perceived trainingSuccess.3,perceived trainingSuccess,Subjective,Self-estimated success of main session; released 0-1 scale,E-4,released rating 0-1,float64,-0.01,1.0,0,-0.01 = unavailable on rest day; exclude from numeric rating means; retain day,historical exposure
+day,perceived recovery.3,perceived recovery,Recovery,Self-estimated restedness before session; released 0-1 scale,E-4,released rating 0-1,float64,-0.01,1.0,0,-0.01 = unavailable on rest day; exclude from numeric rating means; retain day,historical exposure
+day,nr. sessions.4,nr. sessions,Training frequency,Number of completed training sessions that day,E-3,sessions,float64,0.0,2.0,0,,historical exposure
+day,total km.4,total km,Volume,Distance covered running that day,E-3,km,float64,0.0,55.9,0,,historical exposure
+day,km Z3-4.4,km Z3-4,Intensity,Running distance in Z3-4: on or slightly above anaerobic threshold (corrected README),E-3,km,float64,0.0,42.2,0,,historical exposure
+day,km Z5-T1-T2.4,km Z5-T1-T2,Intensity,Distance in Z5 near maximum heart rate or intensive track intervals; T1 longer and T2 shorter repetitions,E-3,km,float64,0.0,48.0,0,,historical exposure
+day,km sprinting.4,km sprinting,Intensity,Distance covered sprinting; no numerical speed cut-point supplied,E-3,km,float64,0.0,40.0,0,,historical exposure
+day,strength training.4,strength training,Strength,"Logged strength training; README calls this an indicator, but values reach 2 and paper calls it session count",E-3,logged count; review >1,float64,0.0,2.0,0,,historical exposure
+day,hours alternative.4,hours alternative,Cross training,Hours of alternative/cross training; type not released,E-3,hours,float64,0.0,10.0,0,,historical exposure
+day,perceived exertion.4,perceived exertion,Subjective,"Self-estimated tiredness after main session; released 0-1 scale, not established Borg RPE",E-3,released rating 0-1,float64,-0.01,1.0,0,-0.01 = unavailable on rest day; exclude from numeric rating means; retain day,historical exposure
+day,perceived trainingSuccess.4,perceived trainingSuccess,Subjective,Self-estimated success of main session; released 0-1 scale,E-3,released rating 0-1,float64,-0.01,1.0,0,-0.01 = unavailable on rest day; exclude from numeric rating means; retain day,historical exposure
+day,perceived recovery.4,perceived recovery,Recovery,Self-estimated restedness before session; released 0-1 scale,E-3,released rating 0-1,float64,-0.01,1.0,0,-0.01 = unavailable on rest day; exclude from numeric rating means; retain day,historical exposure
+day,nr. sessions.5,nr. sessions,Training frequency,Number of completed training sessions that day,E-2,sessions,float64,0.0,2.0,0,,historical exposure
+day,total km.5,total km,Volume,Distance covered running that day,E-2,km,float64,0.0,55.9,0,,historical exposure
+day,km Z3-4.5,km Z3-4,Intensity,Running distance in Z3-4: on or slightly above anaerobic threshold (corrected README),E-2,km,float64,0.0,42.2,0,,historical exposure
+day,km Z5-T1-T2.5,km Z5-T1-T2,Intensity,Distance in Z5 near maximum heart rate or intensive track intervals; T1 longer and T2 shorter repetitions,E-2,km,float64,0.0,48.0,0,,historical exposure
+day,km sprinting.5,km sprinting,Intensity,Distance covered sprinting; no numerical speed cut-point supplied,E-2,km,float64,0.0,40.0,0,,historical exposure
+day,strength training.5,strength training,Strength,"Logged strength training; README calls this an indicator, but values reach 2 and paper calls it session count",E-2,logged count; review >1,float64,0.0,2.0,0,,historical exposure
+day,hours alternative.5,hours alternative,Cross training,Hours of alternative/cross training; type not released,E-2,hours,float64,0.0,10.0,0,,historical exposure
+day,perceived exertion.5,perceived exertion,Subjective,"Self-estimated tiredness after main session; released 0-1 scale, not established Borg RPE",E-2,released rating 0-1,float64,-0.01,1.0,0,-0.01 = unavailable on rest day; exclude from numeric rating means; retain day,historical exposure
+day,perceived trainingSuccess.5,perceived trainingSuccess,Subjective,Self-estimated success of main session; released 0-1 scale,E-2,released rating 0-1,float64,-0.01,1.0,0,-0.01 = unavailable on rest day; exclude from numeric rating means; retain day,historical exposure
+day,perceived recovery.5,perceived recovery,Recovery,Self-estimated restedness before session; released 0-1 scale,E-2,released rating 0-1,float64,-0.01,1.0,0,-0.01 = unavailable on rest day; exclude from numeric rating means; retain day,historical exposure
+day,nr. sessions.6,nr. sessions,Training frequency,Number of completed training sessions that day,E-1,sessions,float64,0.0,2.0,0,,historical exposure
+day,total km.6,total km,Volume,Distance covered running that day,E-1,km,float64,0.0,55.9,0,,historical exposure
+day,km Z3-4.6,km Z3-4,Intensity,Running distance in Z3-4: on or slightly above anaerobic threshold (corrected README),E-1,km,float64,0.0,42.2,0,,historical exposure
+day,km Z5-T1-T2.6,km Z5-T1-T2,Intensity,Distance in Z5 near maximum heart rate or intensive track intervals; T1 longer and T2 shorter repetitions,E-1,km,float64,0.0,48.0,0,,historical exposure
+day,km sprinting.6,km sprinting,Intensity,Distance covered sprinting; no numerical speed cut-point supplied,E-1,km,float64,0.0,40.0,0,,historical exposure
+day,strength training.6,strength training,Strength,"Logged strength training; README calls this an indicator, but values reach 2 and paper calls it session count",E-1,logged count; review >1,float64,0.0,2.0,0,,historical exposure
+day,hours alternative.6,hours alternative,Cross training,Hours of alternative/cross training; type not released,E-1,hours,float64,0.0,20.0,0,,historical exposure
+day,perceived exertion.6,perceived exertion,Subjective,"Self-estimated tiredness after main session; released 0-1 scale, not established Borg RPE",E-1,released rating 0-1,float64,-0.01,1.0,0,-0.01 = unavailable on rest day; exclude from numeric rating means; retain day,historical exposure
+day,perceived trainingSuccess.6,perceived trainingSuccess,Subjective,Self-estimated success of main session; released 0-1 scale,E-1,released rating 0-1,float64,-0.01,1.0,0,-0.01 = unavailable on rest day; exclude from numeric rating means; retain day,historical exposure
+day,perceived recovery.6,perceived recovery,Recovery,Self-estimated restedness before session; released 0-1 scale,E-1,released rating 0-1,float64,-0.01,1.0,0,-0.01 = unavailable on rest day; exclude from numeric rating means; retain day,historical exposure
+day,Athlete ID,Athlete ID,Metadata,Masked athlete identifier; numeric order is not a biological quantity,event day E,identifier,int64,0.0,73.0,0,,grouping/index only
+day,injury,injury,Target,Retained injury flag (1) versus selected healthy event (0); see injury_definition.md,event day E,binary,int64,0.0,1.0,0,,target
+day,Date,Date,Metadata,Event day relative to first record in dataset; calendar origin unavailable,event day E,relative days,int64,0.0,2673.0,0,,grouping/index only
+week,nr. sessions,nr. sessions,Training frequency,Total completed training sessions in preceding week,E-7..E-1,sessions,float64,0.0,14.0,0,,historical exposure
+week,nr. rest days,nr. rest days,Rest,Number of days without a training session in preceding week,E-7..E-1,days,float64,0.0,7.0,0,,historical exposure
+week,total kms,total kms,Volume,Total weekly running distance,E-7..E-1,km,float64,0.0,242.0,0,,historical exposure
+week,max km one day,max km one day,Volume,Maximum running distance on one day of week,E-7..E-1,km/day,float64,0.0,131.0,0,,historical exposure
+week,total km Z3-Z4-Z5-T1-T2,total km Z3-Z4-Z5-T1-T2,Intensity,"Total weekly distance in Z3 or faster; includes sprint exposure in observed weekly aggregation, see reconciliation note",E-7..E-1,km,float64,0.0,100.0,0,,historical exposure
+week,"nr. tough sessions (effort in Z5, T1 or T2)","nr. tough sessions (effort in Z5, T1 or T2)",Intensity,Number of tough sessions containing Z5/T1/T2 effort,E-7..E-1,sessions,float64,0.0,6.0,0,,historical exposure
+week,nr. days with interval session,nr. days with interval session,Intensity,Number of days containing Z3-or-faster interval training,E-7..E-1,days,float64,0.0,7.0,0,,historical exposure
+week,total km Z3-4,total km Z3-4,Intensity,Weekly running distance in Z3-4,E-7..E-1,km,float64,0.0,79.8,0,,historical exposure
+week,max km Z3-4 one day,max km Z3-4 one day,Intensity,Maximum Z3-4 running distance in one day,E-7..E-1,km/day,float64,0.0,75.0,0,,historical exposure
+week,total km Z5-T1-T2,total km Z5-T1-T2,Intensity,Weekly running distance in Z5/T1/T2,E-7..E-1,km,float64,0.0,80.0,0,,historical exposure
+week,max km Z5-T1-T2 one day,max km Z5-T1-T2 one day,Intensity,Maximum Z5/T1/T2 distance in one day,E-7..E-1,km/day,float64,0.0,76.0,0,,historical exposure
+week,total hours alternative training,total hours alternative training,Cross training,Weekly hours of cross training,E-7..E-1,hours,float64,0.0,52.5,0,,historical exposure
+week,nr. strength trainings,nr. strength trainings,Strength,Number of logged strength trainings in week,E-7..E-1,sessions,float64,0.0,9.0,0,,historical exposure
+week,avg exertion,avg exertion,Subjective,Mean perceived exertion across weekly trainings; source aggregation retained,E-7..E-1,released rating 0-1,float64,0.0,0.98,0,,historical exposure
+week,min exertion,min exertion,Subjective,Minimum perceived exertion across weekly trainings; source aggregation retained,E-7..E-1,released rating 0-1,float64,0.0,0.98,0,,historical exposure
+week,max exertion,max exertion,Subjective,Maximum perceived exertion across weekly trainings; source aggregation retained,E-7..E-1,released rating 0-1,float64,0.0,1.0,0,,historical exposure
+week,avg training success,avg training success,Subjective,Mean perceived training success across weekly trainings; source aggregation retained,E-7..E-1,released rating 0-1,float64,0.0,1.0,0,,historical exposure
+week,min training success,min training success,Subjective,Minimum perceived training success across weekly trainings; source aggregation retained,E-7..E-1,released rating 0-1,float64,0.0,1.0,0,,historical exposure
+week,max training success,max training success,Subjective,Maximum perceived training success across weekly trainings; source aggregation retained,E-7..E-1,released rating 0-1,float64,0.0,1.0,0,,historical exposure
+week,avg recovery,avg recovery,Recovery,Mean perceived recovery across weekly trainings; source aggregation retained,E-7..E-1,released rating 0-1,float64,0.0,0.9,0,,historical exposure
+week,min recovery,min recovery,Recovery,Minimum perceived recovery across weekly trainings; source aggregation retained,E-7..E-1,released rating 0-1,float64,0.0,0.9,0,,historical exposure
+week,max recovery,max recovery,Recovery,Maximum perceived recovery across weekly trainings; source aggregation retained,E-7..E-1,released rating 0-1,float64,0.0,1.0,0,,historical exposure
+week,nr. sessions.1,nr. sessions,Training frequency,Total completed training sessions in preceding week,E-14..E-8,sessions,float64,0.0,14.0,0,,historical exposure
+week,nr. rest days.1,nr. rest days,Rest,Number of days without a training session in preceding week,E-14..E-8,days,float64,0.0,7.0,0,,historical exposure
+week,total kms.1,total kms,Volume,Total weekly running distance,E-14..E-8,km,float64,0.0,235.0,0,,historical exposure
+week,max km one day.1,max km one day,Volume,Maximum running distance on one day of week,E-14..E-8,km/day,float64,0.0,130.0,0,,historical exposure
+week,total km Z3-Z4-Z5-T1-T2.1,total km Z3-Z4-Z5-T1-T2,Intensity,"Total weekly distance in Z3 or faster; includes sprint exposure in observed weekly aggregation, see reconciliation note",E-14..E-8,km,float64,0.0,106.2,0,,historical exposure
+week,"nr. tough sessions (effort in Z5, T1 or T2).1","nr. tough sessions (effort in Z5, T1 or T2)",Intensity,Number of tough sessions containing Z5/T1/T2 effort,E-14..E-8,sessions,float64,0.0,6.0,0,,historical exposure
+week,nr. days with interval session.1,nr. days with interval session,Intensity,Number of days containing Z3-or-faster interval training,E-14..E-8,days,float64,0.0,7.0,0,,historical exposure
+week,total km Z3-4.1,total km Z3-4,Intensity,Weekly running distance in Z3-4,E-14..E-8,km,float64,0.0,85.0,0,,historical exposure
+week,max km Z3-4 one day.1,max km Z3-4 one day,Intensity,Maximum Z3-4 running distance in one day,E-14..E-8,km/day,float64,0.0,75.0,0,,historical exposure
+week,total km Z5-T1-T2.1,total km Z5-T1-T2,Intensity,Weekly running distance in Z5/T1/T2,E-14..E-8,km,float64,0.0,80.0,0,,historical exposure
+week,max km Z5-T1-T2 one day.1,max km Z5-T1-T2 one day,Intensity,Maximum Z5/T1/T2 distance in one day,E-14..E-8,km/day,float64,0.0,76.0,0,,historical exposure
+week,total hours alternative training.1,total hours alternative training,Cross training,Weekly hours of cross training,E-14..E-8,hours,float64,0.0,52.5,0,,historical exposure
+week,nr. strength trainings.1,nr. strength trainings,Strength,Number of logged strength trainings in week,E-14..E-8,sessions,float64,0.0,9.0,0,,historical exposure
+week,avg exertion.1,avg exertion,Subjective,Mean perceived exertion across weekly trainings; source aggregation retained,E-14..E-8,released rating 0-1,float64,0.0,1.0,0,,historical exposure
+week,min exertion.1,min exertion,Subjective,Minimum perceived exertion across weekly trainings; source aggregation retained,E-14..E-8,released rating 0-1,float64,0.0,1.0,0,,historical exposure
+week,max exertion.1,max exertion,Subjective,Maximum perceived exertion across weekly trainings; source aggregation retained,E-14..E-8,released rating 0-1,float64,0.0,1.0,0,,historical exposure
+week,avg training success.1,avg training success,Subjective,Mean perceived training success across weekly trainings; source aggregation retained,E-14..E-8,released rating 0-1,float64,0.0,1.0,0,,historical exposure
+week,min training success.1,min training success,Subjective,Minimum perceived training success across weekly trainings; source aggregation retained,E-14..E-8,released rating 0-1,float64,0.0,1.0,0,,historical exposure
+week,max training success.1,max training success,Subjective,Maximum perceived training success across weekly trainings; source aggregation retained,E-14..E-8,released rating 0-1,float64,0.0,1.0,0,,historical exposure
+week,avg recovery.1,avg recovery,Recovery,Mean perceived recovery across weekly trainings; source aggregation retained,E-14..E-8,released rating 0-1,float64,0.0,0.9,0,,historical exposure
+week,min recovery.1,min recovery,Recovery,Minimum perceived recovery across weekly trainings; source aggregation retained,E-14..E-8,released rating 0-1,float64,0.0,0.9,0,,historical exposure
+week,max recovery.1,max recovery,Recovery,Maximum perceived recovery across weekly trainings; source aggregation retained,E-14..E-8,released rating 0-1,float64,0.0,1.0,0,,historical exposure
+week,nr. sessions.2,nr. sessions,Training frequency,Total completed training sessions in preceding week,E-21..E-15,sessions,float64,0.0,14.0,0,,historical exposure
+week,nr. rest days.2,nr. rest days,Rest,Number of days without a training session in preceding week,E-21..E-15,days,float64,0.0,7.0,0,,historical exposure
+week,total kms.2,total kms,Volume,Total weekly running distance,E-21..E-15,km,float64,0.0,235.0,0,,historical exposure
+week,max km one day.2,max km one day,Volume,Maximum running distance on one day of week,E-21..E-15,km/day,float64,0.0,135.0,0,,historical exposure
+week,total km Z3-Z4-Z5-T1-T2.2,total km Z3-Z4-Z5-T1-T2,Intensity,"Total weekly distance in Z3 or faster; includes sprint exposure in observed weekly aggregation, see reconciliation note",E-21..E-15,km,float64,0.0,150.0,0,,historical exposure
+week,"nr. tough sessions (effort in Z5, T1 or T2).2","nr. tough sessions (effort in Z5, T1 or T2)",Intensity,Number of tough sessions containing Z5/T1/T2 effort,E-21..E-15,sessions,float64,0.0,6.0,0,,historical exposure
+week,nr. days with interval session.2,nr. days with interval session,Intensity,Number of days containing Z3-or-faster interval training,E-21..E-15,days,float64,0.0,7.0,0,,historical exposure
+week,total km Z3-4.2,total km Z3-4,Intensity,Weekly running distance in Z3-4,E-21..E-15,km,float64,0.0,85.0,0,,historical exposure
+week,max km Z3-4 one day.2,max km Z3-4 one day,Intensity,Maximum Z3-4 running distance in one day,E-21..E-15,km/day,float64,0.0,75.0,0,,historical exposure
+week,total km Z5-T1-T2.2,total km Z5-T1-T2,Intensity,Weekly running distance in Z5/T1/T2,E-21..E-15,km,float64,0.0,52.2,0,,historical exposure
+week,max km Z5-T1-T2 one day.2,max km Z5-T1-T2 one day,Intensity,Maximum Z5/T1/T2 distance in one day,E-21..E-15,km/day,float64,0.0,30.0,0,,historical exposure
+week,total hours alternative training.2,total hours alternative training,Cross training,Weekly hours of cross training,E-21..E-15,hours,float64,0.0,67.33,0,,historical exposure
+week,nr. strength trainings.2,nr. strength trainings,Strength,Number of logged strength trainings in week,E-21..E-15,sessions,float64,0.0,9.0,0,,historical exposure
+week,avg exertion.2,avg exertion,Subjective,Mean perceived exertion across weekly trainings; source aggregation retained,E-21..E-15,released rating 0-1,float64,0.0,0.98,0,,historical exposure
+week,min exertion.2,min exertion,Subjective,Minimum perceived exertion across weekly trainings; source aggregation retained,E-21..E-15,released rating 0-1,float64,0.0,0.98,0,,historical exposure
+week,max exertion.2,max exertion,Subjective,Maximum perceived exertion across weekly trainings; source aggregation retained,E-21..E-15,released rating 0-1,float64,0.0,1.0,0,,historical exposure
+week,avg training success.2,avg training success,Subjective,Mean perceived training success across weekly trainings; source aggregation retained,E-21..E-15,released rating 0-1,float64,0.0,1.0,0,,historical exposure
+week,min training success.2,min training success,Subjective,Minimum perceived training success across weekly trainings; source aggregation retained,E-21..E-15,released rating 0-1,float64,0.0,1.0,0,,historical exposure
+week,max training success.2,max training success,Subjective,Maximum perceived training success across weekly trainings; source aggregation retained,E-21..E-15,released rating 0-1,float64,0.0,1.0,0,,historical exposure
+week,avg recovery.2,avg recovery,Recovery,Mean perceived recovery across weekly trainings; source aggregation retained,E-21..E-15,released rating 0-1,float64,0.0,0.9,0,,historical exposure
+week,min recovery.2,min recovery,Recovery,Minimum perceived recovery across weekly trainings; source aggregation retained,E-21..E-15,released rating 0-1,float64,0.0,0.9,0,,historical exposure
+week,max recovery.2,max recovery,Recovery,Maximum perceived recovery across weekly trainings; source aggregation retained,E-21..E-15,released rating 0-1,float64,0.0,1.0,0,,historical exposure
+week,Athlete ID,Athlete ID,Metadata,Masked athlete identifier; numeric order is not a biological quantity,event day E,identifier,int64,0.0,73.0,0,,grouping/index only
+week,injury,injury,Target,Retained injury flag (1) versus selected healthy event (0); see injury_definition.md,event day E,binary,int64,0.0,1.0,0,,target
+week,rel total kms week 0_1,rel total kms week 0_1,Relative Load,Released weekly volume ratio; numerator and denominator specified in column name; zero-denominator handling not documented,E-21..E-1 subsets,ratio,float64,0.0,209600000.0,0,,quarantined until denominator rule reviewed
+week,rel total kms week 0_2,rel total kms week 0_2,Relative Load,Released weekly volume ratio; numerator and denominator specified in column name; zero-denominator handling not documented,E-21..E-1 subsets,ratio,float64,0.0,217600000.0,0,,quarantined until denominator rule reviewed
+week,rel total kms week 1_2,rel total kms week 1_2,Relative Load,Released weekly volume ratio; numerator and denominator specified in column name; zero-denominator handling not documented,E-21..E-1 subsets,ratio,float64,0.0,209600000.0,0,,quarantined until denominator rule reviewed
+week,Date,Date,Metadata,Event day relative to first record in dataset; calendar origin unavailable,event day E,relative days,int64,0.0,2673.0,0,,grouping/index only

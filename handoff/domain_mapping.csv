@@ -1,0 +1,10 @@
+domain,source,original_variables,units_or_scale,integration_rule
+Sleep,lovdal,not released,Unavailable,Cannot be filled from another cohort
+Sleep,soccermon,sleep_duration; sleep_quality,Hours; source 1-5 rating,Separate source; availability time unknown
+Subjective response,lovdal,perceived exertion,"Released 0-1 rating, anchors incomplete",Not interchangeable with Borg or SoccerMon RPE
+Subjective response,soccermon,rpe; srpe; duration,RPE 1-10; duration minutes; product units,Source-specific session reports; duplicates flagged
+Recovery,lovdal,perceived recovery,Released 0-1 rating,Not a direct equivalent of readiness
+Recovery,soccermon,readiness; fatigue; soreness; stress; mood,Source scales retained,Fatigue higher=fresher; stress range discrepancy; no pooling
+Biomechanics/strength/nutrition,wu_2026_supplement,original workbook headers retained,Processed normalized values,No participant/time keys; cannot enrich original runners
+Injury,all sources,source-specific endpoints,Incompatible ascertainment/horizons,No universal injury=1; no outcome pooling
+HRV,all acquired subjective sources,not released in acquired files,Unavailable,"Do not confuse resting HR, fatigue or readiness with HRV"

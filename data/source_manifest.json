@@ -1,0 +1,60 @@
+{
+  "doi": "doi:10.34894/UWU9PV",
+  "version": "2.0",
+  "release_time": "2024-06-05T13:13:16Z",
+  "license": {
+    "name": "CC0-1.0",
+    "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+    "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+    "rightsIdentifier": "CC0-1.0",
+    "rightsIdentifierScheme": "SPDX",
+    "schemeUri": "https://spdx.org/licenses/",
+    "languageCode": "en"
+  },
+  "files": [
+    {
+      "filename": "day_approach_maskedID_timeseries.csv",
+      "file_id": 47972,
+      "bytes": 13547450,
+      "sha256": "9c06ecefae9caa4ca831c08c7ebe4d25b0b01e8aa285df526a4e6791c673b6e8",
+      "publisher_checksum": {
+        "type": "SHA-1",
+        "value": "c6edbd3aefb2f61e62971d629012fa2890e1ea6a"
+      },
+      "url": "https://dataverse.nl/api/access/datafile/47972?format=original"
+    },
+    {
+      "filename": "main.ipynb",
+      "file_id": 47973,
+      "bytes": 27126,
+      "sha256": "cb81cc769082c0a7f64c9dc57dd4e67b61d42549718aa5d46330d68c8c7fd675",
+      "publisher_checksum": {
+        "type": "SHA-1",
+        "value": "18f6a1af4a1190d162de68af14c57d47b0436062"
+      },
+      "url": "https://dataverse.nl/api/access/datafile/47973?format=original"
+    },
+    {
+      "filename": "README.txt",
+      "file_id": 422690,
+      "bytes": 5750,
+      "sha256": "60cb848f9cb0c18c374af03627ff698b3e31dbc49e614afe21f0c7931e1e04f0",
+      "publisher_checksum": {
+        "type": "SHA-1",
+        "value": "ce2cd69963ca27c9d18cceed58da9b63e7a035ce"
+      },
+      "url": "https://dataverse.nl/api/access/datafile/422690?format=original"
+    },
+    {
+      "filename": "week_approach_maskedID_timeseries.csv",
+      "file_id": 47971,
+      "bytes": 15152612,
+      "sha256": "261ba3a481f3428611cc175eac2b67749ee3d97980d81168af13bd9f932d5a31",
+      "publisher_checksum": {
+        "type": "SHA-1",
+        "value": "dd3eed3abb8014d6a69ffc6f6b569bcf0660805e"
+      },
+      "url": "https://dataverse.nl/api/access/datafile/47971?format=original"
+    }
+  ]
+}

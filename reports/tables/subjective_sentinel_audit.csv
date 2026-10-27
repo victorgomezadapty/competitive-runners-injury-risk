@@ -1,0 +1,4 @@
+variable,sentinel_cells,sentinel_on_training_day,rating_present_on_rest_day,zero_training_day_ratings
+perceived exertion,80349,0,0,7305
+perceived trainingSuccess,80349,0,0,65732
+perceived recovery,80349,0,0,7860

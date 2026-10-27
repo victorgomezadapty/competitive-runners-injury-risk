@@ -1,0 +1,3 @@
+# Scientific run manifests hash exact bytes on Windows and Linux.
+# Preserve source files and exported tables; do not normalize line endings.
+* -text

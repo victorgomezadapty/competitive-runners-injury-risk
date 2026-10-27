@@ -1,0 +1,44 @@
+{
+  "dataset_id": "soccermon_subjective",
+  "archive_members": 19,
+  "csv_files": 18,
+  "json_files": 1,
+  "unique_participant_columns": 50,
+  "participants_with_any_nonmissing_value": 50,
+  "team_header_counts": {
+    "TeamA": 27,
+    "TeamB": 23
+  },
+  "wellness_participants_observed": 50,
+  "wellness_nonmissing_measurements": 118959,
+  "wellness_unique_athlete_dates": 17008,
+  "wellness_observed_start": "2020-01-09",
+  "wellness_observed_end": "2021-12-31",
+  "wellness_variables": [
+    "fatigue",
+    "mood",
+    "readiness",
+    "sleep_duration",
+    "sleep_quality",
+    "soreness",
+    "stress"
+  ],
+  "injury_report_rows": 162,
+  "athletes_with_injury_reports": 15,
+  "injury_report_first_date": "2020-01-14",
+  "injury_report_last_date": "2021-11-03",
+  "session_report_rows": 16265,
+  "session_report_athletes": 50,
+  "session_report_first_date": "2020-01-09",
+  "session_report_last_date": "2021-12-31",
+  "session_rows_in_identical_report_groups": 151,
+  "session_rpe_duration_product_mismatches": 0,
+  "session_source_fields": [
+    "srpe",
+    "rpe",
+    "duration",
+    "date"
+  ],
+  "injury_note": "Reports, not adjudicated incident events; no inferred healthy days",
+  "scope": "Source-specific adaptation only; no modeling or joining with Dutch runners"
+}

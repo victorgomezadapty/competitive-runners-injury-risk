@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "date": "2026-10-27",
+  "final_split_cases": 21,
+  "base_fits": 84,
+  "executed_notebooks": [
+    "01_data_understanding.ipynb",
+    "02_athlete_timeline.ipynb",
+    "03_injury_event_analysis.ipynb",
+    "04_training_load_eda.ipynb",
+    "05_feature_windows.ipynb",
+    "06_baseline_models.ipynb",
+    "07_athlete_independent_validation.ipynb",
+    "08_temporal_models.ipynb",
+    "09_calibration.ipynb",
+    "10_risk_profiles.ipynb",
+    "11_decision_support.ipynb"
+  ],
+  "kaggle_checksummed_files": 12,
+  "web_examples": 5,
+  "public_articles_redistributed": 0,
+  "clinical_model_deployed": false
+}

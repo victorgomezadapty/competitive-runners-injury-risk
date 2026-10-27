@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-26",
+  "status": "Exploratory completion after Phase 2; no external untouched test",
+  "seeds": [20261025, 20261026, 20261027],
+  "alternate_seeds_protocol": "unseen_athlete_temporal",
+  "matching": "Inner join on released Athlete ID and Date; require identical injury labels",
+  "lookback": 21,
+  "known_lookback": 63,
+  "selection_lookahead": 21,
+  "weekly_additions": ["distance_14d", "distance_21d", "z3_4_distance_14d", "z5_t1_t2_distance_14d", "rest_days_14d", "distance_change_7d"],
+  "models": ["day_logistic", "day_week_logistic", "athlete_balanced_logistic", "day_week_forest"],
+  "forest": {"n_estimators": 200, "max_depth": 6, "min_samples_leaf": 30, "max_features": 0.7},
+  "calibration": "Disjoint sigmoid; all raw and calibrated results retained",
+  "selection": "No winning-model selection. Phase 2 remains the primary result.",
+  "weights": "Inverse training rows per athlete, normalized to training mean one; unweighted calibration and evaluation",
+  "prohibited": ["new clinical thresholds", "horizon redesign", "cross-cohort pooling", "causal scenario claims"]
+}

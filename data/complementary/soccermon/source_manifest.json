@@ -1,0 +1,111 @@
+{
+  "dataset_id": "soccermon_subjective",
+  "doi": "10.5281/zenodo.10033832",
+  "source_record": "https://zenodo.org/records/10033832",
+  "download_url": "https://zenodo.org/records/10033832/files/subjective.zip?download=1",
+  "filename": "subjective.zip",
+  "bytes": 705770,
+  "publisher_md5": "a3e86aeca611f77c9331a535eae00bf7",
+  "sha256": "338e9878fbed1f941cfc37b3f012cb356f97cc0f726e80a79aa5c8e67cc2a87c",
+  "license_metadata": {
+    "id": "cc-by-4.0"
+  },
+  "inventory": [
+    {
+      "member": "subjective/wellness/fatigue.csv",
+      "uncompressed_bytes": 97730,
+      "compressed_bytes": 13298
+    },
+    {
+      "member": "subjective/training-load/strain.csv",
+      "uncompressed_bytes": 225517,
+      "compressed_bytes": 69215
+    },
+    {
+      "member": "subjective/game-performance/game-performance.csv",
+      "uncompressed_bytes": 15218,
+      "compressed_bytes": 2332
+    },
+    {
+      "member": "subjective/training-load/daily_load.csv",
+      "uncompressed_bytes": 185055,
+      "compressed_bytes": 28411
+    },
+    {
+      "member": "subjective/training-load/weekly_load.csv",
+      "uncompressed_bytes": 217387,
+      "compressed_bytes": 43772
+    },
+    {
+      "member": "subjective/training-load/monotony.csv",
+      "uncompressed_bytes": 186446,
+      "compressed_bytes": 44214
+    },
+    {
+      "member": "subjective/illness/illness.csv",
+      "uncompressed_bytes": 1344,
+      "compressed_bytes": 314
+    },
+    {
+      "member": "subjective/training-load/ctl28.csv",
+      "uncompressed_bytes": 229581,
+      "compressed_bytes": 53643
+    },
+    {
+      "member": "subjective/wellness/sleep_quality.csv",
+      "uncompressed_bytes": 97741,
+      "compressed_bytes": 14063
+    },
+    {
+      "member": "subjective/wellness/stress.csv",
+      "uncompressed_bytes": 97737,
+      "compressed_bytes": 12360
+    },
+    {
+      "member": "subjective/training-load/atl.csv",
+      "uncompressed_bytes": 222534,
+      "compressed_bytes": 45659
+    },
+    {
+      "member": "subjective/wellness/soreness.csv",
+      "uncompressed_bytes": 97752,
+      "compressed_bytes": 13986
+    },
+    {
+      "member": "subjective/wellness/sleep_duration.csv",
+      "uncompressed_bytes": 98644,
+      "compressed_bytes": 18564
+    },
+    {
+      "member": "subjective/wellness/readiness.csv",
+      "uncompressed_bytes": 98035,
+      "compressed_bytes": 16647
+    },
+    {
+      "member": "subjective/wellness/mood.csv",
+      "uncompressed_bytes": 97748,
+      "compressed_bytes": 12166
+    },
+    {
+      "member": "subjective/training-load/ctl42.csv",
+      "uncompressed_bytes": 232214,
+      "compressed_bytes": 56144
+    },
+    {
+      "member": "subjective/injury/injury.csv",
+      "uncompressed_bytes": 17133,
+      "compressed_bytes": 1345
+    },
+    {
+      "member": "subjective/training-load/session.json",
+      "uncompressed_bytes": 1029120,
+      "compressed_bytes": 76617
+    },
+    {
+      "member": "subjective/training-load/acwr.csv",
+      "uncompressed_bytes": 464753,
+      "compressed_bytes": 176574
+    }
+  ],
+  "scope": "Separate elite women soccer cohort; subjective archive only; no join to runner identities"
+}

@@ -1,0 +1,22 @@
+{
+  "status": "completed",
+  "matched_rows": 42680,
+  "day_rows": 42766,
+  "week_rows": 42798,
+  "athletes": 74,
+  "labels": 575,
+  "split_cases": 21,
+  "base_fits": 84,
+  "protocol_sha256": "9664ddcfee6acf8e9efcea0bd187e0116bbf9cb82a1f1753768edc33e566de26",
+  "source_code_sha256": "79dacb8edf8912212e9e708dc0ad1a954b8d2cee9c3042a87ed54f7687dcd354",
+  "primary_remains": "Phase 2 logistic_load_response_sigmoid",
+  "files": {
+    "reports/final_analysis/coefficients.csv": "cb0a13da867a9367b0e3d9c90c4a54d43d64bc6ac52cffe5305f968613de550e",
+    "reports/final_analysis/fold_metrics.csv": "516fa522472b73f10e39ee0312ed1acafa3cdcba5579b83de59a16837d807f18",
+    "reports/final_analysis/pooled_metrics.csv": "ae3abee650136e2b5eb5748eac0b2e962c00745f9a1af55469cdd7e9b0121c51",
+    "reports/final_analysis/split_audit.csv": "27c80e3e2cbe0cb36acd9c7689261a93f1cc56ff1f616ff9052cce5a70aea18c",
+    "data/processed/final_analysis/matched_features.csv": "d877ce3c3e95f7bbdae57ede4d3807a9b7a3e9dadb42bb1715c4a53820503fc0",
+    "data/processed/final_analysis/predictions.csv": "8d6a56c9a8c0f8c93efe30db1105350a45c097d42427a76ed6c49d4faaca490d",
+    "data/processed/final_analysis/row_partitions.csv": "1a129a4141845d979407ca08a1ad6958d9fb97b9b709e8ca340c1a99a043c3da"
+  }
+}

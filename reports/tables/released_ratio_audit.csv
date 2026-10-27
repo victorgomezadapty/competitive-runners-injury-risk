@@ -1,0 +1,4 @@
+variable,zero_denominator_rows,positive_denominator_max_error,max_released_ratio,ratios_over_10
+rel total kms week 0_1,4482,0.0002099979000256269,209600000.0,1246
+rel total kms week 0_2,4694,0.00029999700003102703,217600000.0,2014
+rel total kms week 1_2,4694,0.0002099979000256269,209600000.0,1349

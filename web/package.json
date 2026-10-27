@@ -1,0 +1,1 @@
+{"name":"competitive-runners-injury-risk-site","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node build.mjs","test":"node --check app.js && node --check build.mjs"}}

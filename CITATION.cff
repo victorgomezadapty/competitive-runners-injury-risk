@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this analysis and the original Dataverse dataset separately."
+title: "Longitudinal Training Load & Injury Risk in Competitive Runners"
+type: software
+authors:
+  - family-names: "Gómez López"
+    given-names: "Víctor Andrés"
+version: 1.0.0
+date-released: 2026-10-27
+license: MIT
+repository-code: "https://github.com/victorgomezadapty/competitive-runners-injury-risk"
+url: "https://competitive-runners-injury-risk.vercel.app"
+abstract: "Exploratory, leakage-aware analysis of selected longitudinal training windows. Original data: Lövdal, den Hartigh and Azzopardi, DOI 10.34894/UWU9PV, CC0. No validated clinical use."

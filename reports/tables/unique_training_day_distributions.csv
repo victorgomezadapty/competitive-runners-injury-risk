@@ -1,0 +1,11 @@
+representation,variable,n,missing,mean,sd,min,p01,q25,median,q75,p99,max
+reconstructed_unique_days_retrospective,nr. sessions,49162,0,0.8378625767869493,0.5785750967716077,0.0,0.0,0.0,1.0,1.0,2.0,2.0
+reconstructed_unique_days_retrospective,total km,49162,0,7.067700663113788,7.4639006081169965,0.0,0.0,0.0,6.0,12.0,29.0,57.0
+reconstructed_unique_days_retrospective,km Z3-4,49162,0,0.6990338065985923,2.325755846086456,0.0,0.0,0.0,0.0,0.0,10.0,42.2
+reconstructed_unique_days_retrospective,km Z5-T1-T2,49162,0,0.5949920670436516,1.826023530569608,0.0,0.0,0.0,0.0,0.0,8.0,48.0
+reconstructed_unique_days_retrospective,km sprinting,49162,0,0.07558073308653025,0.4862444344660757,0.0,0.0,0.0,0.0,0.0,1.5,40.0
+reconstructed_unique_days_retrospective,strength training,49162,0,0.12019445913510435,0.3307738519343165,0.0,0.0,0.0,0.0,0.0,1.0,2.0
+reconstructed_unique_days_retrospective,hours alternative,49162,0,0.16483259428013508,0.5528658417436212,0.0,0.0,0.0,0.0,0.0,2.5,20.0
+reconstructed_unique_days_retrospective,perceived exertion,36302,12860,0.34875819514076356,0.24067703483396513,0.0,0.0,0.14,0.29,0.53,0.92,1.0
+reconstructed_unique_days_retrospective,perceived trainingSuccess,36302,12860,0.49003222962922155,0.3441809698300443,0.0,0.0,0.0,0.62,0.77,0.98,1.0
+reconstructed_unique_days_retrospective,perceived recovery,36302,12860,0.2745182083631756,0.16928498686665439,0.0,0.0,0.15,0.22,0.38,0.75,1.0

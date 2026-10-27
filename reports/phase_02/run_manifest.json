@@ -1,0 +1,133 @@
+{
+  "stage": "phase_02",
+  "status": "completed",
+  "authorization_date": "2026-10-25",
+  "protocol_sha256": "086254d8860277260eebe817061b72c87fc2bc8cf88d4f999fc9a06eb63d85e9",
+  "protocol": {
+    "registered_date": "2026-10-25",
+    "authorization": "User requested improvements and continuation after Milestone 1 delivery.",
+    "status": "Exploratory secondary analysis; all source data were described in Milestone 1.",
+    "target": "Original selected injury-labeled event at E, inputs through E-1; no new horizon",
+    "seed": 20261025,
+    "outer_athlete_folds": 5,
+    "calibration_athlete_fraction": 0.2,
+    "temporal_calendar_fractions": [
+      0.6,
+      0.8
+    ],
+    "known_athlete_input_lookback": 63,
+    "other_protocol_input_lookback": 7,
+    "healthy_selection_lookahead": 21,
+    "personal_history_days": 56,
+    "personal_minimum_observed_days": 28,
+    "personal_source_ascertainment_delay": 21,
+    "quantile_clipping": [
+      0.005,
+      0.995
+    ],
+    "logistic_C": 1.0,
+    "logistic_solver": "lbfgs",
+    "logistic_max_iter": 3000,
+    "class_weight": null,
+    "imputation": "Training medians plus missing indicators",
+    "scaling": "Training RobustScaler",
+    "calibration": "Sigmoid on disjoint calibration records/athletes; frozen base estimator",
+    "review_budgets": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "review_budget_denominator": "Selected event rows, not true athlete-days",
+    "bootstrap_resamples": 500,
+    "primary_model": "logistic_load_response_sigmoid",
+    "models": [
+      "no_skill",
+      "logistic_volume",
+      "logistic_load_response"
+    ],
+    "sensitivities": [
+      "training_success",
+      "uncapped_values",
+      "prior_personal_baseline_known_athletes_only"
+    ],
+    "volume_features": [
+      "distance_7d",
+      "z3_4_distance_7d",
+      "z5_t1_t2_distance_7d",
+      "sprint_distance_7d",
+      "sessions_7d",
+      "rest_days_7d",
+      "strength_sessions_7d",
+      "cross_training_hours_7d",
+      "distance_3d",
+      "z5_t1_t2_distance_3d"
+    ],
+    "response_features": [
+      "mean_exertion_7d",
+      "mean_recovery_7d"
+    ],
+    "excluded": [
+      "Athlete ID",
+      "Date",
+      "original weekly ratios",
+      "SoccerMon and Wu rows",
+      "SMOTE",
+      "trees",
+      "neural networks",
+      "clinical thresholds",
+      "causal advice"
+    ]
+  },
+  "source_manifest_sha256": "b71e43dca54819da9dd68cbe91b2aacef5057f6a389b533b0f9c7131ef6e41d6",
+  "calendar_cutoffs": [
+    1604,
+    2139
+  ],
+  "baseline_available_rows": 27096,
+  "total_rows": 42766,
+  "known_temporal_test_rows": 5254,
+  "late_rows_excluded_as_new_athletes": 2342,
+  "base_estimators_fitted": 45,
+  "calibration_estimators_fitted": 45,
+  "prediction_models_trained": true,
+  "models_serialized": false,
+  "deployment_status": "research only",
+  "environment": {
+    "scikit-learn": "1.9.1",
+    "pandas": "2.3.3",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1"
+  },
+  "source_code_sha256": {
+    "src\\__init__.py": "8f7520bd15d6121297c39695fec78748748822b5bd73d048c87dd6dbfbea8b3b",
+    "src\\analysis\\injury_events.py": "1e4b00cecd252261a38aaf32bd4820651f84e2be610b909db5bce47e42cc3f6e",
+    "src\\analysis\\prediction_metrics.py": "51395c92b6930be38a1882bc2b95ba65789fec6c9c9b4a8e8bd2e38b7515208e",
+    "src\\analysis\\statistics.py": "bc6ed7182ba7b42843cdef46a4ee8771f90d70d0edff0c0ac5490e022bf8b5b4",
+    "src\\analysis\\__init__.py": "bd4ba640eb10386a3a9fd7aa1dddea38bcdcb7ccdbcc0e6b0fd1b597d32cc4d1",
+    "src\\data\\complementary.py": "bd5a7ab09d074d897b07b2edc9702f99031fe4b64b0c3e064c28aafbd2cfe335",
+    "src\\data\\load_data.py": "90602a902f58c740ad546f3a72412bacd6ed94d6dee0a52e35a76020014b1acc",
+    "src\\data\\timelines.py": "b56a47346839e5f8b4e6b28f4542d7fda21e0f6f7d3823d0d2aea78bbbf737ac",
+    "src\\data\\validation.py": "f855623e59c9524dc19f5dc76ded93cd7517d11b81dfce070e13e3cfb78680c1",
+    "src\\data\\__init__.py": "4d329aff3928fc6bbbe841c3237cfd0c1a79df8238c124b85f5b750b8b2f032e",
+    "src\\features\\athlete_baselines.py": "5aa3a23505c056ae8ce43dd5f73f6107d6b2aeac0eb11c9ab75a527e33cd1113",
+    "src\\features\\daily.py": "be5ab8f158ee5577d2637e6c467766e9b66909b0f3384764227f4497079010ea",
+    "src\\features\\load_change.py": "75b19a08abaf73f67bccffd998d7c18ead443fbe47e6517e67b4d7c36a6482cf",
+    "src\\features\\recovery.py": "c736b70549cc8a6ba5db52a642bb418d5d914eae521948d065739bbed60effcc",
+    "src\\features\\rolling.py": "75f92c4b1622436ceb2ac59c4a6ada2cadf45b0ff0bfbd45a9a11f1b24022aa9",
+    "src\\features\\__init__.py": "d6c50771942ce70f2fc8a9de2d763950b041e3a4d28e840d6054baa8add0c92e",
+    "src\\models\\baseline.py": "91852f11671984bd2c0c6007a731ee2695a5827f36103d7d1d433f6f1923055e",
+    "src\\models\\calibration.py": "ae6aa62b94ca70d3af686c5c2ad44a64476e3bb1144dd8ca8faa2ae1cfa5f9d6",
+    "src\\models\\temporal_models.py": "6ae2021a4352422cb9e3018a40ac49cf87c9a3307dfe28d43fd5581abbd1cd9c",
+    "src\\models\\tree_models.py": "f39580f127e609b9531a4de7dac2e587b405d2e34533b8ec25fd860f5bf64561",
+    "src\\models\\__init__.py": "57555ec64d731e85ddfb52b6ef6c319050c11238e45a9f899993e7f24d05fed5",
+    "src\\validation\\athlete_split.py": "387efb4d3f1c2bb37ae761f4ba5c498c8c5c483bad483fdd934d74f6981a1597",
+    "src\\validation\\leakage.py": "a46ea7fbb9a2d0389c775900fb04835105baa07f489272cacaac7de3780fe5d9",
+    "src\\validation\\temporal.py": "b9d58f9de6433a5c17f6d102572d56c9b78c85cd6daa0cfed34f279513de4455",
+    "src\\validation\\__init__.py": "fe81a8ffb83f41974f8a36498eadf9c2781ba5b3c9e01859ac4041162ff9748e",
+    "src\\visualization\\calibration_plots.py": "38c555f8a05106e24bc4203ce0f52222a6e3039de610247c8b8c17838bc61d01",
+    "src\\visualization\\risk_plots.py": "35300bda813195330cb0954c47488b886925e45e3cb2580989982e9c4711e873",
+    "src\\visualization\\timelines.py": "15d54de5861bb49a679e0b251b665f665989f25f21aed606a8d80a1c116604b4",
+    "src\\visualization\\__init__.py": "2b90635406d038d1074170d7ada1a9bd4d56f15a033f5380d05793ae89594856",
+    "scripts\\run_phase_02.py": "5fe6b9342622513fb392f26e56a8c7703733b2c9919f0ebe688dee73c19f8026"
+  }
+}

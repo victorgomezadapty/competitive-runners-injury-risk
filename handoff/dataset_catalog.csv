@@ -1,0 +1,5 @@
+dataset_id,role,population,verified_athletes,time_basis,target,license,eligibility
+lovdal_day,primary longitudinal event windows,competitive Dutch distance runners,74.0,relative event day; 7-day embedded history,selected injury flag at event day,CC0-1.0,Milestone 1 descriptive; later conditional prediction after review
+lovdal_week,secondary representation of same cohort,same original competitive runner cohort,74.0,relative event day; 3 weekly historical blocks,selected injury flag; event set differs from Day,CC0-1.0,separate analysis; never stack with Day as independent people
+soccermon_subjective,complementary wellness and session source,elite women soccer players; two teams,50.0,calendar day; retrospective availability possible,pain/injury reports; no incident-event target constructed,CC-BY-4.0,source adapter and descriptive profiling only
+wu_2026_supplement,multidisciplinary runner reference,"competitive endurance runners; published n=142, not file-verifiable",,"no explicit date, week index or participant key",RRI weekly questionnaire increase; processed table,CC-BY-4.0,quarantined for temporal/grouped analysis; no identity reconstruction

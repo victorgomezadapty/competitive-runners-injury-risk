@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "raw_checksums_verified": 4,
+  "complementary_checksums_verified": 4,
+  "dictionary_columns_documented": 145,
+  "feature_registry_entries": 35,
+  "notebooks": [
+    {
+      "notebook": "01_data_understanding.ipynb",
+      "executed_cells": 2,
+      "error_outputs": 0
+    },
+    {
+      "notebook": "02_athlete_timeline.ipynb",
+      "executed_cells": 2,
+      "error_outputs": 0
+    },
+    {
+      "notebook": "03_injury_event_analysis.ipynb",
+      "executed_cells": 2,
+      "error_outputs": 0
+    },
+    {
+      "notebook": "04_training_load_eda.ipynb",
+      "executed_cells": 2,
+      "error_outputs": 0
+    },
+    {
+      "notebook": "05_feature_windows.ipynb",
+      "executed_cells": 0,
+      "error_outputs": 0
+    },
+    {
+      "notebook": "06_baseline_models.ipynb",
+      "executed_cells": 0,
+      "error_outputs": 0
+    },
+    {
+      "notebook": "07_athlete_independent_validation.ipynb",
+      "executed_cells": 0,
+      "error_outputs": 0
+    },
+    {
+      "notebook": "08_temporal_models.ipynb",
+      "executed_cells": 0,
+      "error_outputs": 0
+    },
+    {
+      "notebook": "09_calibration.ipynb",
+      "executed_cells": 0,
+      "error_outputs": 0
+    },
+    {
+      "notebook": "10_risk_profiles.ipynb",
+      "executed_cells": 0,
+      "error_outputs": 0
+    },
+    {
+      "notebook": "11_decision_support.ipynb",
+      "executed_cells": 0,
+      "error_outputs": 0
+    }
+  ],
+  "missing_local_links": [],
+  "models_implemented": false,
+  "prediction_models_trained": false,
+  "note": "Eight scientific-contract tests are run separately with python -m pytest -q."
+}

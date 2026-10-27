@@ -1,0 +1,34 @@
+{
+  "dataset_id": "wu_2026_supplement",
+  "doi": "10.17028/rd.lboro.31368781",
+  "article_doi": "10.1038/s41746-026-02413-y",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "files": [
+    {
+      "filename": "41746_2026_2413_MOESM1_ESM.pdf",
+      "bytes": 1659745,
+      "publisher_md5": "1648ffe6a6ed34c7b1c28a6157584f06",
+      "sha256": "0958b697e0bc6da5bb811c2c699c46ef6520ffa2444d1eb05a8c62e07a46d685",
+      "url": "https://ndownloader.figshare.com/files/62010646"
+    },
+    {
+      "filename": "41746_2026_2413_MOESM2_ESM.xlsx",
+      "bytes": 1188998,
+      "publisher_md5": "e959440135b27f75f47d28c76725155a",
+      "sha256": "4d5d1ae468073287b7808998ef26d3651d817eb7595d5d37840908ff5e50f4de",
+      "url": "https://ndownloader.figshare.com/files/62010649"
+    },
+    {
+      "filename": "41746_2026_2413_MOESM3_ESM.xlsx",
+      "bytes": 8187498,
+      "publisher_md5": "4a842bdfdf52255e44a9f9cf82cc983e",
+      "sha256": "8609fcbdc90743d19c278f8f337e23e9663bc56a93a7ffa19f83b2214148a027",
+      "url": "https://ndownloader.figshare.com/files/62010652"
+    }
+  ],
+  "scope": "Separate runner cohort; processed supplement; not pooled with Lovdal"
+}

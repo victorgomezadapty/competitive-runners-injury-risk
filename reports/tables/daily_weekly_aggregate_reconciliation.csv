@@ -1,0 +1,12 @@
+daily_summary,weekly_column,matched_rows,comparable_nonmissing_rows,within_0011,max_absolute_difference,median_absolute_difference
+distance_7d,total kms,42680,42680,42680,2.842170943040401e-14,0.0
+sessions_7d,nr. sessions,42680,42680,42680,0.0,0.0
+rest_days_7d,nr. rest days,42680,42680,42680,0.0,0.0
+z3_4_distance_7d,total km Z3-4,42680,42680,42680,7.105427357601002e-15,0.0
+z5_t1_t2_distance_7d,total km Z5-T1-T2,42680,42680,42680,3.552713678800501e-15,0.0
+strength_sessions_7d,nr. strength trainings,42680,42680,42680,0.0,0.0
+cross_training_hours_7d,total hours alternative training,42680,42680,42658,0.02000000000000024,0.0
+mean_exertion_7d,avg exertion,42680,40401,40401,0.0050000000000001155,0.0024999999999999883
+mean_recovery_7d,avg recovery,42680,40401,40401,0.007500000000000007,0.0024999999999999467
+mean_training_success_7d,avg training success,42680,40401,40401,0.007500000000000062,0.0014285714285716677
+combined_intensity_7d,total km Z3-Z4-Z5-T1-T2,42680,42680,42680,7.105427357601002e-15,0.0

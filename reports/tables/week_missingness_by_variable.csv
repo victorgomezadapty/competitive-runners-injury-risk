@@ -1,0 +1,73 @@
+variable,blank_cells,nonfinite_cells,minus_001_cells,zero_cells
+nr. sessions,0,0,0,2279
+nr. rest days,0,0,0,9933
+total kms,0,0,0,4305
+max km one day,0,0,0,4305
+total km Z3-Z4-Z5-T1-T2,0,0,0,10212
+"nr. tough sessions (effort in Z5, T1 or T2)",0,0,0,20142
+nr. days with interval session,0,0,0,11378
+total km Z3-4,0,0,0,21967
+max km Z3-4 one day,0,0,0,21967
+total km Z5-T1-T2,0,0,0,20142
+max km Z5-T1-T2 one day,0,0,0,20142
+total hours alternative training,0,0,0,27112
+nr. strength trainings,0,0,0,21008
+avg exertion,0,0,0,3106
+min exertion,0,0,0,5282
+max exertion,0,0,0,3106
+avg training success,0,0,0,14606
+min training success,0,0,0,15291
+max training success,0,0,0,14606
+avg recovery,0,0,0,3216
+min recovery,0,0,0,4828
+max recovery,0,0,0,3209
+nr. sessions.1,0,0,0,2266
+nr. rest days.1,0,0,0,9834
+total kms.1,0,0,0,4482
+max km one day.1,0,0,0,4482
+total km Z3-Z4-Z5-T1-T2.1,0,0,0,10445
+"nr. tough sessions (effort in Z5, T1 or T2).1",0,0,0,20285
+nr. days with interval session.1,0,0,0,11600
+total km Z3-4.1,0,0,0,22082
+max km Z3-4 one day.1,0,0,0,22082
+total km Z5-T1-T2.1,0,0,0,20285
+max km Z5-T1-T2 one day.1,0,0,0,20285
+total hours alternative training.1,0,0,0,26897
+nr. strength trainings.1,0,0,0,20899
+avg exertion.1,0,0,0,3087
+min exertion.1,0,0,0,5288
+max exertion.1,0,0,0,3087
+avg training success.1,0,0,0,14594
+min training success.1,0,0,0,15271
+max training success.1,0,0,0,14594
+avg recovery.1,0,0,0,3184
+min recovery.1,0,0,0,4857
+max recovery.1,0,0,0,3177
+nr. sessions.2,0,0,0,2257
+nr. rest days.2,0,0,0,9782
+total kms.2,0,0,0,4694
+max km one day.2,0,0,0,4694
+total km Z3-Z4-Z5-T1-T2.2,0,0,0,10675
+"nr. tough sessions (effort in Z5, T1 or T2).2",0,0,0,20444
+nr. days with interval session.2,0,0,0,11817
+total km Z3-4.2,0,0,0,22118
+max km Z3-4 one day.2,0,0,0,22118
+total km Z5-T1-T2.2,0,0,0,20444
+max km Z5-T1-T2 one day.2,0,0,0,20444
+total hours alternative training.2,0,0,0,26597
+nr. strength trainings.2,0,0,0,20805
+avg exertion.2,0,0,0,3054
+min exertion.2,0,0,0,5363
+max exertion.2,0,0,0,3054
+avg training success.2,0,0,0,14570
+min training success.2,0,0,0,15261
+max training success.2,0,0,0,14570
+avg recovery.2,0,0,0,3164
+min recovery.2,0,0,0,4888
+max recovery.2,0,0,0,3156
+Athlete ID,0,0,0,310
+injury,0,0,0,42223
+rel total kms week 0_1,0,0,0,4305
+rel total kms week 0_2,0,0,0,4305
+rel total kms week 1_2,0,0,0,4482
+Date,0,0,0,35

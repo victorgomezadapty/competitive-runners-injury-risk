@@ -1,0 +1,27 @@
+# Private/local downloaded copies and reproducible derived data
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+docs/sources/
+data/complementary/*/raw/
+data/complementary/*/processed/
+data/complementary/review_sources/
+data/complementary/wu_2026/supplement_methods.txt
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+.env
+*.pyc
+
+# Publication products are rebuilt from audited source inputs
+web/dist/
+.vercel/
+release/
+node_modules/
+reports/qa/*
+!reports/qa/summary.json
+.vercel

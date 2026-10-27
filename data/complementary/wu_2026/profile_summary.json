@@ -1,0 +1,46 @@
+{
+  "dataset_id": "wu_2026_supplement",
+  "workbooks": [
+    {
+      "file": "41746_2026_2413_MOESM2_ESM.xlsx",
+      "sheet": "Sheet1",
+      "rows": 6181,
+      "columns": 40,
+      "missing_cells": 0,
+      "exact_duplicate_rows": 0,
+      "explicit_id_columns": [],
+      "explicit_time_columns": [],
+      "RRI_positive_rows": 564,
+      "RRI_prevalence": 0.0912473709755703
+    },
+    {
+      "file": "41746_2026_2413_MOESM3_ESM.xlsx",
+      "sheet": "Sheet1",
+      "rows": 6181,
+      "columns": 258,
+      "missing_cells": 0,
+      "exact_duplicate_rows": 0,
+      "explicit_id_columns": [],
+      "explicit_time_columns": [],
+      "RRI_positive_rows": 564,
+      "RRI_prevalence": 0.0912473709755703
+    }
+  ],
+  "shared_columns": 40,
+  "shared_columns_identical_in_supplied_row_order": true,
+  "publication_reported_athletes": 142,
+  "unique_athletes_file_verified": null,
+  "athlete_count_limitation": "No explicit participant identifiers released; do not infer identities from repeated biometrics or genetic signatures",
+  "time_limitation": "No explicit date or week-order key; spreadsheet row order is not verified chronology",
+  "modeling_decision": "No modeling, pooling, grouped validation or temporal reconstruction from these workbooks",
+  "potential_leakage_review": [
+    "tracking_period_injury",
+    "past_month_injury",
+    "upstream normalization/imputation/feature selection"
+  ],
+  "read_environment": {
+    "python": "3.12.14",
+    "pandas": "3.0.1",
+    "openpyxl": "3.1.5"
+  }
+}
