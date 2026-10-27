@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-27",
+  "status": "published",
+  "scope": "Exploratory research, reproducibility and interactive communication; no clinical model deployed",
+  "website": {
+    "url": "https://competitive-runners-injury-risk.vercel.app/",
+    "status": "READY; public page and primary metric verified in browser",
+    "first_production_deployment": "dpl_FkHsmf35snvVem8NtayDSNm2n6Zx",
+    "github_connection": "Connected to victorgomezadapty/competitive-runners-injury-risk"
+  },
+  "github": {
+    "url": "https://github.com/victorgomezadapty/competitive-runners-injury-risk",
+    "visibility": "public",
+    "ci": "success",
+    "verified_ci_run": "https://github.com/victorgomezadapty/competitive-runners-injury-risk/actions/runs/40465836537"
+  },
+  "kaggle": {
+    "dataset": "https://www.kaggle.com/datasets/vctorandrsgmezlpez/competitive-runners-longitudinal-research",
+    "dataset_status": "ready; public",
+    "notebook": "https://www.kaggle.com/code/vctorandrsgmezlpez/competitive-runners-longitudinal-audit",
+    "notebook_status": "KernelWorkerStatus.COMPLETE; public version 1",
+    "raw_data_license": "CC0-1.0; original Dataverse citation and byte checksums retained"
+  },
+  "portfolio": {
+    "url": "https://victor-gomez-portfolio.vercel.app/projects/competitive-runners-injury-risk/",
+    "status": "published and page verified in browser",
+    "commit": "70362e7",
+    "verification": "typecheck, content lint, build and project catalog checks passed; original featured-project selection retained"
+  },
+  "research_checks": {
+    "tests_passed": 18,
+    "executed_notebooks": 11,
+    "primary_split_cases": 11,
+    "additional_split_cases": 21,
+    "narrative_bibliography_records": 14,
+    "timeline_ui_combinations": 60,
+    "articles_or_third_party_figures_redistributed": 0
+  }
+}

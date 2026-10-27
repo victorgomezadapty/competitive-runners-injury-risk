@@ -1,0 +1,14 @@
+.git
+.github
+data
+docs
+handoff
+notebooks
+reports
+release
+scripts
+src
+tests
+requirements.txt
+pytest.ini
+**/__pycache__
