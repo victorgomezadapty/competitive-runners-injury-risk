@@ -1,0 +1,12 @@
+import { readFileSync } from 'node:fs';
+import assert from 'node:assert/strict';
+const data = JSON.parse(readFileSync(new URL('./data.json', import.meta.url)));
+const html = readFileSync(new URL('./index.html', import.meta.url), 'utf8');
+assert.equal(data.contrasts.length, 22, 'paired contrasts exported for 3 and 7 days');
+for (const c of data.contrasts) assert.equal(c.higher + c.lower + c.equal, c.paired_athletes, `sign counts match pairs for ${c.feature}`);
+assert.ok(data.distance_7d_rows.healthy.q25 < data.distance_7d_rows.injury.q75, 'row quartiles present');
+const strict = data.intervals.find(d => d.protocol === 'unseen_athlete_temporal' && d.metric === 'average_precision');
+const chance = data.metrics.find(d => d.protocol === 'unseen_athlete_temporal' && d.model === 'logistic_load_response_sigmoid').prevalence;
+assert.ok(strict.ci95_low < chance, 'strict interval includes chance, so the copy must not claim a signal');
+assert.ok(!/modesta|modest/i.test(html), 'no overclaiming wording on the main page');
+console.log('web data contracts ok');

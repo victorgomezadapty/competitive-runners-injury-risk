@@ -40,7 +40,11 @@ Counts are computed from files. The article distinguishes 77 initial and 74 reta
 | Unseen / all periods | 74 | 0.0201 | 0.6330 | 0.01342 |
 | Unseen / future | 32 | 0.0200 | 0.5456 | 0.01584 |
 
+**Plain reading:** in the strictest evaluation (unseen athletes, future period) the athlete-cluster AP interval is 0.0148 to 0.0430 and includes the chance level 0.0161; with ROC-AUC 0.546 the signal is **not clearly distinguishable from chance**. Only the unseen/all-periods evaluation keeps its whole interval (0.0164 to 0.0253) above chance (0.0136), and it does not require predicting a later period.
+
 AP is non-interpolated average precision. Test label fractions differ (1.36–1.69%); compare frequency references, raw/calibrated results and uncertainty in the report. Calibration is not uniformly beneficial. In the combined unseen/future test, the 10% calibration review budget flags 14.2% of selected rows, captures 14.8% of retained labels and requires about 60 reviews per captured positive. These are **not alerts per true athlete-day**.
+
+**Within-athlete pre-event contrasts (shown on the site since the design pass).** Each athlete's mean injury-label window is compared with their own mean healthy-control window (63 paired athletes, saved Milestone 1 tables). Over the previous 7 days, 52 of 63 athletes ran more before an injury label (mean +8.2 km, 95% CI 4.6 to 11.5) and 48 of 63 had fewer days without sessions; perceived recovery was slightly higher, not lower. Row-level 7-day distance still overlaps heavily (middle half 22.5 to 70.0 km without a label, 30.7 to 67.9 km with one), which is why a group shift does not become an individual alert. No confounding adjustment or multiplicity correction; healthy controls were selected using future fitness. `python scripts/export_web_contrasts.py` copies these saved tables into `web/data.json`.
 
 [Final completion](reports/final_project_summary.md): matched 14/21-day history, athlete-balanced fitting, fixed forest and three combined-validation partitions; all 84 base fits over 21 split cases retained. No best test result is promoted as a final predictor.
 
