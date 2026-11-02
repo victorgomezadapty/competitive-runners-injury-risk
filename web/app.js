@@ -53,8 +53,11 @@ function validation(){
   const ci=data.intervals.filter(d=>d.protocol===protocol&&d.metric==='average_precision');
   $('#validation-description').textContent=t(...names[protocol])+(ci.length?` · `+t('IC 95 % de AP por atleta: ','Athlete-cluster AP 95% CI: ')+`${f(ci[0].ci95_low,4)} `+t('a','to')+` ${f(ci[0].ci95_high,4)}`:'');
   $('#ap').textContent=f(metric.average_precision,3);
-  const above=ci.length&&ci[0].ci95_low>metric.prevalence;
-  $('#verdict').innerHTML=above?t(`<strong>Por encima del azar, pero poco.</strong> Todo el intervalo (${f(ci[0].ci95_low,4)} a ${f(ci[0].ci95_high,4)}) queda sobre el azar (${f(metric.prevalence,4)}). Es la única evaluación donde pasa, y no exige predecir el futuro.`,`<strong>Above chance, but barely.</strong> The whole interval (${f(ci[0].ci95_low,4)} to ${f(ci[0].ci95_high,4)}) sits above chance (${f(metric.prevalence,4)}). It is the only evaluation where this happens, and it does not require predicting the future.`):t(`<strong>No se distingue con claridad del azar.</strong> El intervalo (${f(ci[0].ci95_low,4)} a ${f(ci[0].ci95_high,4)}) incluye la AP esperada al azar (${f(metric.prevalence,4)}).`,`<strong>Not clearly distinguishable from chance.</strong> The interval (${f(ci[0].ci95_low,4)} to ${f(ci[0].ci95_high,4)}) includes the AP expected by chance (${f(metric.prevalence,4)}).`);
+  const paired=data.intervals.find(d=>d.protocol===protocol&&d.metric==='AP_minus_no_skill');
+  const auc=f(metric.roc_auc,3);
+  const pairedEs=paired?` El IC pareado de AP menos azar (${f(paired.ci95_low,4)} a ${f(paired.ci95_high,4)}) ${paired.ci95_low>0?'excluye':'incluye'} el cero.`:'';
+  const pairedEn=paired?` The paired CI of AP minus chance (${f(paired.ci95_low,4)} to ${f(paired.ci95_high,4)}) ${paired.ci95_low>0?'excludes':'includes'} zero.`:'';
+  $('#verdict').innerHTML=paired&&paired.ci95_low>0?t(`<strong>Supera al azar por muy poco.</strong> AP ${f(metric.average_precision,3)} frente a ${f(metric.prevalence,3)} del azar.${pairedEs} Con una AUC de ${auc} no sirve para uso clínico.`,`<strong>It beats chance only marginally.</strong> AP ${f(metric.average_precision,3)} against ${f(metric.prevalence,3)} for chance.${pairedEn} With an AUC of ${auc} it is not clinically useful.`):t(`<strong>No supera al azar con claridad.</strong>${pairedEs} Con una AUC de ${auc} no sirve para uso clínico.`,`<strong>It does not clearly beat chance.</strong>${pairedEn} With an AUC of ${auc} it is not clinically useful.`);
   ciChart();
   $('#metrics').innerHTML=`<div><strong>${f(metric.roc_auc,3)}</strong><span>ROC-AUC</span></div><div><strong>${f(metric.brier,5)}</strong><span>Brier</span></div><div><strong>${metric.athletes}</strong><span>${t('atletas test','test athletes')}</span></div>`;
   $('#calibration-detail').textContent=`Brier: ${f(raw.brier,6)} → ${f(metric.brier,6)}. `+t('Sin calibrar → sigmoid. Menor es mejor; un Brier pequeño también refleja eventos raros.','Raw → sigmoid. Lower is better; small Brier also reflects rare positives.');
@@ -108,3 +111,43 @@ if($('#athlete')){
   catch(error){$('#load-error').hidden=false;$('#load-error').textContent=t('No se pudieron cargar los datos. Recarga la página o consulta las tablas en GitHub.','Data could not load. Reload the page or consult the GitHub tables.');console.error(error);}
 }
 if('IntersectionObserver'in window){const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target);}}),{threshold:.06});document.querySelectorAll('.reveal').forEach(el=>{el.classList.add('js-reveal');observer.observe(el);});}
+
+// design-pass: on narrow screens the new-analysis sections start collapsed behind an accessible toggle.
+(() => {
+  const labels = { es: ['Ver el análisis', 'Ocultar el análisis'], en: ['Show the analysis', 'Hide the analysis'] };
+  const lang = () => (document.documentElement.lang || 'es').slice(0, 2) === 'en' ? 'en' : 'es';
+  const toggles = [];
+  document.querySelectorAll('[data-collapse-after]').forEach((marker, index) => {
+    const section = marker.closest('section');
+    if (!section || section.querySelector('.collapse-body')) return;
+    const body = document.createElement('div');
+    body.className = 'collapse-body';
+    body.id = `${section.id || 'analysis'}-body-${index}`;
+    while (marker.nextSibling) body.appendChild(marker.nextSibling);
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'collapse-toggle';
+    button.setAttribute('aria-controls', body.id);
+    button.setAttribute('aria-expanded', 'false');
+    button.innerHTML = '<span class="collapse-label"></span><span class="collapse-icon" aria-hidden="true">+</span>';
+    marker.after(button, body);
+    section.classList.add('is-collapsible');
+    button.addEventListener('click', () => {
+      const open = !section.classList.contains('is-open');
+      section.classList.toggle('is-open', open);
+      button.setAttribute('aria-expanded', String(open));
+      paint();
+      if (open) window.dispatchEvent(new Event('resize'));
+    });
+    toggles.push([section, button]);
+  });
+  function paint() {
+    for (const [section, button] of toggles) {
+      const open = section.classList.contains('is-open');
+      button.querySelector('.collapse-label').textContent = labels[lang()][open ? 1 : 0];
+      button.querySelector('.collapse-icon').textContent = open ? '−' : '+';
+    }
+  }
+  paint();
+  new MutationObserver(paint).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
+})();

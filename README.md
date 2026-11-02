@@ -40,7 +40,7 @@ Counts are computed from files. The article distinguishes 77 initial and 74 reta
 | Unseen / all periods | 74 | 0.0201 | 0.6330 | 0.01342 |
 | Unseen / future | 32 | 0.0200 | 0.5456 | 0.01584 |
 
-**Plain reading:** in the strictest evaluation (unseen athletes, future period) the athlete-cluster AP interval is 0.0148 to 0.0430 and includes the chance level 0.0161; with ROC-AUC 0.546 the signal is **not clearly distinguishable from chance**. Only the unseen/all-periods evaluation keeps its whole interval (0.0164 to 0.0253) above chance (0.0136), and it does not require predicting a later period.
+**Plain reading:** in the strictest evaluation (unseen athletes, future period) AP is 0.020 against a chance level of 0.016. The athlete-cluster AP interval (0.0148 to 0.0430) touches chance, but the paired CI of AP minus chance (0.0020 to 0.0270) excludes zero: the model **beats chance only marginally; with ROC-AUC 0.546 it is not clinically useful**. ES: *Supera al azar por muy poco; con una AUC de 0,546 no sirve para uso clínico.* Only the unseen/all-periods evaluation keeps its whole interval (0.0164 to 0.0253) above chance (0.0136), and it does not require predicting a later period.
 
 AP is non-interpolated average precision. Test label fractions differ (1.36–1.69%); compare frequency references, raw/calibrated results and uncertainty in the report. Calibration is not uniformly beneficial. In the combined unseen/future test, the 10% calibration review budget flags 14.2% of selected rows, captures 14.8% of retained labels and requires about 60 reviews per captured positive. These are **not alerts per true athlete-day**.
 

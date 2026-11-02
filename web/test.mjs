@@ -7,6 +7,10 @@ for (const c of data.contrasts) assert.equal(c.higher + c.lower + c.equal, c.pai
 assert.ok(data.distance_7d_rows.healthy.q25 < data.distance_7d_rows.injury.q75, 'row quartiles present');
 const strict = data.intervals.find(d => d.protocol === 'unseen_athlete_temporal' && d.metric === 'average_precision');
 const chance = data.metrics.find(d => d.protocol === 'unseen_athlete_temporal' && d.model === 'logistic_load_response_sigmoid').prevalence;
-assert.ok(strict.ci95_low < chance, 'strict interval includes chance, so the copy must not claim a signal');
+assert.ok(strict.ci95_low < chance, 'per-athlete AP interval touches chance');
+const paired = data.intervals.find(d => d.protocol === 'unseen_athlete_temporal' && d.metric === 'AP_minus_no_skill');
+assert.ok(paired.ci95_low > 0, 'paired AP minus chance excludes zero');
+assert.ok(/Supera al azar por muy poco/.test(html) && /beats chance only marginally/.test(html), 'accurate marginal wording in both languages');
+assert.ok(!/no se distingue con claridad|not clearly distinguishable/i.test(html), 'old wording removed');
 assert.ok(!/modesta|modest/i.test(html), 'no overclaiming wording on the main page');
 console.log('web data contracts ok');
