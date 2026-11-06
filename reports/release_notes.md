@@ -4,8 +4,8 @@ Longitudinal Training Load & Injury Risk in Competitive Runners. Analysis and so
 
 Includes the full data/target audit, corrected lag order, eleven notebooks, three primary validation questions, independent calibration, matched longer-history/weighting/fixed-tree sensitivities, uncertainty and selected-row review burden. Eighteen scientific-contract tests passed. A documented narrative search and fourteen bibliographic records contextualize the findings.
 
-- Interactive site: https://competitive-runners-injury-risk.vercel.app/
-- Discussion: https://competitive-runners-injury-risk.vercel.app/evidence.html
+- Interactive site: https://sports-rehab-intelligence.vercel.app/studies/competitive-runners-injury-risk/
+- Discussion: https://sports-rehab-intelligence.vercel.app/studies/competitive-runners-injury-risk/evidence.html
 - Data: https://www.kaggle.com/datasets/vctorandrsgmezlpez/competitive-runners-longitudinal-research
 - Executed release-audit notebook: https://www.kaggle.com/code/vctorandrsgmezlpez/competitive-runners-longitudinal-audit
 - Portfolio: https://victor-gomez-portfolio.vercel.app/projects/competitive-runners-injury-risk/

@@ -3,7 +3,7 @@
   "status": "published",
   "scope": "Exploratory research, reproducibility and interactive communication; no clinical model deployed",
   "website": {
-    "url": "https://competitive-runners-injury-risk.vercel.app/",
+    "url": "https://sports-rehab-intelligence.vercel.app/studies/competitive-runners-injury-risk/",
     "status": "READY; public page and primary metric verified in browser",
     "first_production_deployment": "dpl_FkHsmf35snvVem8NtayDSNm2n6Zx",
     "github_connection": "Connected to victorgomezadapty/competitive-runners-injury-risk"

@@ -7,7 +7,7 @@ Analysis: **Víctor Andrés Gómez López**, research release 1.0.0, 2026-10-26.
 
 Completed exploratory research case study and interactive presentation. Clinical validity and injury prevention are not established.
 
-- [Interactive study](https://competitive-runners-injury-risk.vercel.app): animated presentation, five athlete histories, validation and review burden; ES/EN.
+- [Interactive study](https://sports-rehab-intelligence.vercel.app/studies/competitive-runners-injury-risk/): animated presentation, five athlete histories, validation and review burden; ES/EN. The app lives in the [Sports Rehab Intelligence atlas](https://sports-rehab-intelligence.vercel.app/).
 - [Discussion](docs/discussion.md), [documented narrative search](docs/literature_search.md), [BibTeX](docs/references.bib).
 - [Kaggle dataset](https://www.kaggle.com/datasets/vctorandrsgmezlpez/competitive-runners-longitudinal-research) and [executable release-audit notebook](https://www.kaggle.com/code/vctorandrsgmezlpez/competitive-runners-longitudinal-audit).
 - [Portfolio](https://victor-gomez-portfolio.vercel.app/projects/competitive-runners-injury-risk/).
